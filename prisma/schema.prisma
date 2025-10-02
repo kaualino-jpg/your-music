@@ -1,0 +1,45 @@
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Usuario {
+  id  Int @id @default(autoincrement())
+  nome String
+  palavra_chave String
+  email String
+  registros Registro_emocional[]
+}
+
+model Registro_emocional {
+  id  Int @id @default(autoincrement())
+  emocoes  String
+  usuario Usuario  @relation(fields: [usuario_id], references: [id])
+  usuario_id Int
+  playlists Playlist_emocional[]
+}
+
+model Playlist_emocional {
+  id Int @id @default(autoincrement())
+  nome String
+  Registros Registro_emocional @relation(fields: [registro_id], references: [id])
+  musicas Tab_musica[]
+  registro_id Int
+}
+
+model Tabelamusical { 
+  id  Int @id @default(autoincrement())
+  titulo String
+  artista String
+  genero String
+  links String
+  playlistss Playlist_emocional[]
+}
+
+
