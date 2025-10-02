@@ -15,4 +15,4 @@ server.use(rotaregistros);
 server.use(rotaplaylists);
 server.use(rotaTabelamusical);
 
-server.listen(3002, () => console.log("> rodando"));
+server.listen(3002, () => console.log("> rodafgdcfgdfgndo"));
