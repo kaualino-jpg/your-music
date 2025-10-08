@@ -1,144 +1,59 @@
 # YourMusic — Aplicativo de Humor e Música
 
-O nosso projeto e um aplicativo de musica com a intenção de melhorar seu humor no dia a dia, Hoje em dia muitas pessoas sofrem de ansiedades ou ate mesmo de depressão, e dependendo do estilo musical que ela escuta pode influenciar no pensamento da pessoa. entao a gente tem como objetivo melhorar o humor da pessoa, O projeto irá oferecer para o usuário uma playlist personalizada com músicas de acordo com o humor do dia a dia dele(a) e também com seu gênero musical.
+Um aplicativo que promove o bem-estar emocional por meio da música, ajudando o usuário a equilibrar o humor com trilhas sonoras personalizadas.
 
 
 
-# como a gente faz pra controlar o humor da pessoa??
+# Sobre o Projeto
 
-No nosso aplicativo de musica tem uma enquete que pergunta como esta seu humor hoje, por exmplo se esta triste, feliz,estrassado,
 
-## Create files and folders
+O YourMusic foi desenvolvido por três alunos do curso técnico em Desenvolvimento de Sistemas do CEDUP Joinville, durante a Hackathon de Saúde Integrada.  
+A proposta surgiu como uma forma de unir tecnologia e bem-estar mental, mostrando como a música pode ajudar as pessoas a lidar com as emoções e melhorar o humor no dia a dia. 
 
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
+O YourMusic é um aplicativo que mostra playlists de acordo com o seu humor.  
+A ideia é simples: você diz como está se sentindo (feliz, triste, cansado, animado, etc) e o app te mostra músicas que combinam com o momento.
 
-## Switch to another file
+Diferente de outros aplicativos de música, o YourMusic não toca as músicas diretamente. ele mostra links do Spotify, YouTube, Deezer ou Apple Music, com playlists prontas pra você ouvir quando quiser.
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+## Público-alvo
 
-## Rename a file
+O público-alvo do projeto são jovens e adultos que utilizam a música como forma de expressão emocional e desejam melhorar o bem-estar mental.  
+O aplicativo é voltado para pessoas que procuram equilibrar o humor, aliviar o estresse e encontrar músicas que combinem com o seu estado emocional.
 
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+## Qual é o objetivo?
 
-## Delete a file
+O principal objetivo do YourMusic é ajudar as pessoas a melhorarem o humor e se conhecerem melhor com a ajuda da música.  
+Queremos que o app seja um espaço leve, onde o usuário possa relaxar, se expressar e se sentir bem
 
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
+## Principais funções
+
+-   *Escolher o humor:* o usuário diz como está se sentindo no momento.
+-   *Playlists sugeridas:* aparecem listas de músicas que combinam com o humor.
+-    *Histórico de humor:* mostra como o humor do usuário muda com o tempo.
+-    *Perfil:* com nome, email e opções de personalização. 
+-    *Notificações:* lembra o usuário de ouvir músicas relaxantes.
+-    *Configurações:* controla notificações e preferências.
+-   *Página Sobre:* mostra a história e o propósito do app.
+
+## Funcionalidades principais
+
+- Seleção de humor (feliz, triste, ansioso, calmo etc.)  
+- Playlists de acordo com o estado emocional  
+- Histórico de humor com gráficos  
+- Perfil personalizado  
+- Notificações e lembretes  
+- Integração com Spotify, Deezer e YouTube
 
 ## Export a file
 
 You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
 
 
-# Synchronization
+## Tecnologias usadas
 
-Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
-
-There are two types of synchronization and they can complement each other:
-
-- The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
-	> To start syncing your workspace, just sign in with Google in the menu.
-
-- The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
-	> Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
-
-## Open a file
-
-You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
-
-## Save a file
-
-You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
-
-## Synchronize a file
-
-Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.
-
-If you just have modified your file and you want to force syncing, click the **Synchronize now** button in the navigation bar.
-
-> **Note:** The **Synchronize now** button is disabled if you have no file to synchronize.
-
-## Manage file synchronization
-
-Since one file can be synced with multiple locations, you can list and manage synchronized locations by clicking **File synchronization** in the **Synchronize** sub-menu. This allows you to list and remove synchronized locations that are linked to your file.
+- HTML e CSS 
+- Figma 
+- Google Forms 
+- Trello
 
 
-# Publication
-
-Publishing in StackEdit makes it simple for you to publish online your files. Once you're happy with a file, you can publish it to different hosting platforms like **Blogger**, **Dropbox**, **Gist**, **GitHub**, **Google Drive**, **WordPress** and **Zendesk**. With [Handlebars templates](http://handlebarsjs.com/), you have full control over what you export.
-
-> Before starting to publish, you must link an account in the **Publish** sub-menu.
-
-## Publish a File
-
-You can publish your file by opening the **Publish** sub-menu and by clicking **Publish to**. For some locations, you can choose between the following formats:
-
-- Markdown: publish the Markdown text on a website that can interpret it (**GitHub** for instance),
-- HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).
-
-## Update a publication
-
-After publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the **Publish now** button in the navigation bar.
-
-> **Note:** The **Publish now** button is disabled if your file has not been published yet.
-
-## Manage file publication
-
-Since one file can be published to multiple locations, you can list and manage publish locations by clicking **File publication** in the **Publish** sub-menu. This allows you to list and remove publication locations that are linked to your file.
-
-
-# Markdown extensions
-
-StackEdit extends the standard Markdown syntax by adding extra **Markdown extensions**, providing you with some nice features.
-
-> **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
-
-
-## SmartyPants
-
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
-
-|                |ASCII                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-
-
-## KaTeX
-
-You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.io/KaTeX/):
-
-The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
-
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
-
-> You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
-
-
-## UML diagrams
-
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
-
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
-```
-
-And this will produce a flow chart:
-
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
