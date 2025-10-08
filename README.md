@@ -1,4 +1,4 @@
-# your music
+# YourMusic — Aplicativo de Humor e Música
 
 O nosso projeto e um aplicativo de musica com a intenção de melhorar seu humor no dia a dia, Hoje em dia muitas pessoas sofrem de ansiedades ou ate mesmo de depressão, e dependendo do estilo musical que ela escuta pode influenciar no pensamento da pessoa. entao a gente tem como objetivo melhorar o humor da pessoa, O projeto irá oferecer para o usuário uma playlist personalizada com músicas de acordo com o humor do dia a dia dele(a) e também com seu gênero musical.
 
