@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Music - Gêneros</title>
+  <link rel="stylesheet" href="styleee.css">
+</head>
+<body>
+  <div class="generos">
+    <div class="generos-head">
+      <img src="c:\Users\4553748800\Downloads\file-audio-regular-full.svg" alt="Logo do site" class="logo">
+      <h1>Quais gêneros musicais você mais gosta?</h1>
+      <p>Escolha seu estilo musical preferido.</p>
+    </div>
+
+    <div class="generos-body">
+        <h2 onclick="sanfona()"> musicas <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">    <!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M140.3 135.2c12.6-10.3 31.1-9.5 42.8 2.2l128 128c9.2 9.2 11.9 22.9 6.9 34.9S301.4 320 288.5 320l-256 0c-12.9 0-24.6-7.8-29.6-19.8S.7 274.5 9.9 265.4l128-128 2.4-2.2z"/></svg></h2>
+      <form>
+        <div class="opcao">
+          <input type="checkbox" id="gospel" name="genero" value="Gospel">
+          <label for="gospel">Gospel</label>
+        </div>
+        <div class="opcao">
+          <input type="checkbox" id="samba" name="genero" value="Samba">
+          <label for="samba">Samba</label>
+        </div>
+        <div class="opcao">
+          <input type="checkbox" id="sertanejo" name="genero" value="Sertanejo">
+          <label for="sertanejo">Sertanejo</label>
+        </div>
+        <div class="opcao">
+          <input type="checkbox" id="classica" name="genero" value="Música clássica">
+          <label for="classica">Música clássica</label>
+        </div>
+        <div class="opcao">
+          <input type="checkbox" id="funk" name="genero" value="Funk">
+          <label for="funk">Funk</label>
+        </div>
+        <div class="opcao">
+          <input type="checkbox" id="hiphop" name="genero" value="Hip Hop">
+          <label for="hiphop">Hip Hop</label>
+        </div>
+        <div class="opcao">
+          <input type="checkbox" id="rock" name="genero" value="Rock">
+          <label for="rock">Rock</label>
+        </div>
+        <div class="opcao">
+          <input type="checkbox" id="jazz" name="genero" value="Jazz">
+          <label for="jazz">Jazz</label>
+        </div>
+        <div class="opcao">
+          <input type="checkbox" id="eletronica" name="genero" value="Eletrônica">
+          <label for="eletronica">Eletrônica</label>
+        </div>
+        <div class="opcao">
+          <input type="checkbox" id="mpb" name="genero" value="MPB">
+          <label for="mpb">MPB</label>
+        </div>
+        <div class="opcao">
+          <input type="checkbox" id="pop" name="genero" value="Pop">
+          <label for="pop">Pop</label>
+        </div>
+        <div class="opcao">
+          <input type="checkbox" id="bossa" name="genero" value="Bossa Nova">
+          <label for="bossa">Bossa Nova</label>
+        </div>
+        <div class="opcao">
+          <input type="checkbox" id="pagode" name="genero" value="Pagode">
+          <label for="pagode">Pagode</label>
+        </div>
+      </form>
+
+      <button class="continuar">Continuar</button>
+    </div>
+  </div>
+
+  <script>
+    function sanfona(){
+document.querySelector(".generos-body").classList.toggle("fechado")
+    }
+  </script>
+</body>
+</html>

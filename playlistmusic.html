@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Music - Histórico de Humor</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;        
+      display: flex;
+      justify-content: center;  
+      align-items: center;      
+      background: #FEFFED;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .container {
+      width: 350px;
+      height: 700px;
+      border: 2px solid #ccc;
+      border-radius: 25px;
+      background-color: #FFFCE8;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+    }
+
+    .header {
+      text-align: center;
+      padding: 25px;
+    }
+
+    .header h1 {
+      background-color: #B29FFF;
+      color: white;
+      font-size: 18px;
+      border-radius: 12px;
+      padding: 15px;
+      margin: 20px;
+      box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+      font-weight: 500;
+    }
+
+    .conteudo {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .humor-item {
+      background-color: white;
+      border-radius: 12px;
+      padding: 12px 18px;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .humor-item span {
+      font-weight: 600;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: space-around;
+      background-color: #FFF;
+      border-top: 1px solid #CCC;
+      padding: 10px 0;
+    }
+
+    .menu-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 12px;
+      color: #000;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .menu-item img {
+      width: 25px;
+      height: 25px;
+    }
+
+    .menu-item:hover {
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Histórico de Humor</h1>
+    </div>
+
+    <div class="conteudo">
+      <div class="humor-item">
+        <span>😁 Felizão</span>
+        <small>18/10/2025</small>
+      </div>
+
+      <div class="humor-item">
+        <span>😌 Tranquilo</span>
+        <small>17/10/2025</small>
+      </div>
+
+      <div class="humor-item">
+        <span>😊 Energia Positiva</span>
+        <small>15/10/2025</small>
+      </div>
+
+      <div class="humor-item">
+        <span>🎧 Reflexivo</span>
+        <small>14/10/2025</small>
+      </div>
+    </div>
+
+    <div class="menu">
+      <a class="menu-item" href="index.html">
+        <img src="home.svg" alt="Início">
+        <p>Início</p>
+      </a>
+      <a class="menu-item" href="historico.html">
+        <img src="clock.svg" alt="Histórico de Humor">
+        <p>Histórico</p>
+      </a>
+      <a class="menu-item" href="perfil.html">
+        <img src="user.svg" alt="Perfil">
+        <p>Perfil</p>
+      </a>
+    </div>
+  </div>
+</body>
+</html>

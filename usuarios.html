@@ -1,0 +1,13 @@
+<div></div>
+<script>
+    async function listarUsuarios() {
+        const resposta = await fetch("https://4sv72j-3002.csb.app/usuarios")
+        const json = await resposta.json()
+
+        json.forEach(usuario => {
+            document.querySelector("div").innerHTML += `<p>${usuario.nome}`   
+        });  
+    }
+    listarUsuarios()
+</script>
+</body>

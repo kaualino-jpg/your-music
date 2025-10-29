@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Music - Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="login">
+  <div class="login-head">
+    <h1>Faça seu login</h1>
+    <img src="c:\Users\4553748800\Downloads\file-audio-regular-full.svg" alt="Logo do site" class="logo">
+  </div>
+
+  <div class="login-body">
+    <input id="nome" placeholder="Nome de usuário">
+    <input id="email" placeholder="Email">
+    <input id="palavra-chave" placeholder="Palavra-passe">
+    <button class="btn-login">Iniciar Sessão</button>
+  </div>
+<script>
+    document.querySelector("form")
+    .addEventListener('submit', (event) => {
+        event.preventDefault()
+        const nome_de_usuario = document.querySelector("#nome de usuário").value
+        const email = document.querySelector("Email").value
+        const palavra_passe = document.querySelector("palavra-passe").value
+        login(nome_de_usuário,Email,Palavra-passe)
+    })
+
+    async function login (nome_de_usuario,Email,Palavra_passe) {
+        console.log({nome_de_usuario,Email,Palavra_passe})
+        const resposta = await fetch("https://dzm2g5-3002.csb.app", {
+            method: "POST",
+            body: JSON.stringify({
+                nome_de_usuario,
+                Email,
+                Palavra_passe
+            }),
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+    }
+    const json = await resposta.json()
+    localStorage.setItem("token", json.token)
+
+    
+</script> 
+</div>
+</body>
+</html>
